@@ -1,6 +1,6 @@
 {
-  "name": "mexc-sdk",
-  "version": "1.0.0",
+  "name": "@mizan-x/mexc-api-sdk",
+  "version": "1.0.4-security.1",
   "description": "mexc sdk",
   "main": "src/index.js",
   "types": "src/index.d.ts",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mxcdevelop/mexc-api-sdk.git"
+    "url": "git+https://github.com/Mizan-X/mexc-api-sdk.git"
   },
   "keywords": [],
   "author": {
@@ -23,20 +23,19 @@
     "@types/node": "^16.11.10",
     "sync-request": "6.1.0"
   },
-  "bundledDependencies": [
-    "sync-request",
-    "@types/node"
-  ],
+  "overrides": {
+    "form-data": ">=2.5.4"
+  },
   "devDependencies": {
     "jsii": "1.44.1",
     "jsii-pacmak": "1.44.1",
-    "nodemon": "^2.0.15",
+    "nodemon": "^3.0.0",
     "ts-node": "^10.4.0"
   },
   "bugs": {
-    "url": "https://github.com/mxcdevelop/mexc-api-sdk/issues"
+    "url": "https://github.com/Mizan-X/mexc-api-sdk/issues"
   },
-  "homepage": "https://github.com/mxcdevelop/mexc-api-sdk#readme",
+  "homepage": "https://github.com/Mizan-X/mexc-api-sdk#readme",
   "stability": "stable",
   "jsii": {
     "outdir": "dist",
