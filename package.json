@@ -1,6 +1,6 @@
 {
   "name": "@mizan-x/mexc-api-sdk",
-  "version": "1.0.4-security.2",
+  "version": "1.0.4-security.3",
   "description": "mexc sdk",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -23,7 +23,8 @@
     "sync-request": "6.1.0"
   },
   "overrides": {
-    "form-data": ">=2.5.4"
+    "form-data": "^4.0.6",
+    "qs": "^6.17.1"
   },
   "devDependencies": {
     "@types/node": "^20.0.0",
